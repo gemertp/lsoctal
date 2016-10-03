@@ -1,4 +1,15 @@
 #! /bin/bash
+############
+# lsoctal.awk
+#
+# Sytnax  : $ lsoctal.awk
+# Purpose : Show the file permission in octal mode.
+#
+#
+#
+#
+# (c) P.A. van Gemert
+
 
 ls -l | tail -n +2 | awk '
 
@@ -44,4 +55,6 @@ $1 ~ /^.........s./ { operm=operm+1
 	eperm = 0
 }
 
-'
+' # End of awk block
+
+# eos

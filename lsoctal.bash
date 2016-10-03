@@ -2,11 +2,13 @@
 ################
 # lsoctal.bash
 #
-# Syntax  : $ lsoctal
+# Syntax  : $ lsoctal.bash
 # Purpose : Show file permissions in octal mode
 # 
 #
 #
+#
+# (c) P.A. van Gemert
 
 ls -l $1 | tail -n +2 | while read line ; do
 

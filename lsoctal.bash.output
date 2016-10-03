@@ -1,0 +1,9 @@
+Sample output of lsoctal.awk
+
+$ lsoctal.bash
+-0664. 1 petervg petervg 35141 Oct  3 00:24 LICENSE
+-0644. 1 petervg petervg  1159 Oct  3 12:00 lsoctal.awk
+-0664. 1 petervg petervg   248 Oct  3 12:03 lsoctal.awk.output
+-0644. 1 petervg petervg  1183 Oct  3 12:01 lsoctal.bash
+-0664. 1 petervg petervg    29 Oct  3 12:04 lsoctal.bash.output
+
